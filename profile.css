@@ -1,0 +1,30 @@
+.head{
+    margin-left: 7%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.5em;
+}
+.content{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-left:9%;
+}
+
+body{
+    background-image: url(background.jpg);
+}
+
+.leftPart{
+    position: absolute;
+    left:53%;
+    top:9%;
+}
+
+.rightPart{
+}
+
+.rightPart hr{
+    width: 28%;
+    text-align: left;
+    
+}

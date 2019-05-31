@@ -1,0 +1,311 @@
+/* .container {
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 0 1em;
+	overflow: hidden;
+} */
+
+.ani div  {
+	display: block;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	left: 5%;
+	background: rgba(24, 188, 229, 0.22);
+}
+/* .ani {
+	position: relative;
+	height: 15em;
+	margin: 1em 0 0;
+	width: 100%;
+	z-index: 0;
+}
+.ani div {
+	width: 100%;
+} */
+
+/* .ani {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 4em;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    z-index: 0;
+} */
+
+
+.ani div.a1  {
+    -webkit-animation: box-resize 10s infinite alternate both;
+    animation: box-resize 10s infinite alternate both;
+  }
+  .ani div.a2  {
+    -webkit-animation: box-resize2 10s infinite alternate both;
+    animation: box-resize2 10s infinite alternate both;
+  }
+  .ani div.a3  {
+    -webkit-animation: box-resize3 10s infinite alternate both;
+    animation: box-resize3 10s infinite alternate both;
+  }
+  .ani div.a4  {
+    -webkit-animation: box-resize4 10s infinite alternate both;
+    animation: box-resize4 10s infinite alternate both;
+  }
+  .ani div.a5  {
+    -webkit-animation: box-resize5 10s infinite alternate both;
+    animation: box-resize5 10s infinite alternate both;
+  }
+  .ani div.a6  {
+    -webkit-animation: box-resize6 10s infinite alternate both;
+    animation: box-resize6 10s infinite alternate both;
+  }
+  .ani div.a7  {
+    -webkit-animation: box-resize7 10s infinite alternate both;
+    animation: box-resize7 10s infinite alternate both;
+  }
+  .ani div.a8  {
+    -webkit-animation: box-resize8 10s infinite alternate both;
+    animation: box-resize8 10s infinite alternate both;
+  }
+  .ani div.a9  {
+    -webkit-animation: box-resize9 10s infinite alternate both;
+    animation: box-resize9 10s infinite alternate both;
+  }
+  .ani div.a10  {
+    -webkit-animation: box-resize10 10s infinite alternate both;
+    animation: box-resize10 10s infinite alternate both;
+  }
+  
+
+
+/*Fluid Animation*/
+@-webkit-keyframes box-resize {
+    0% { transform: scale(.8); -webkit-transform: scale(.8); }
+    50% { transform: scale(.6); -webkit-transform: scale(.6); }
+    100% { transform: scale(.7); -webkit-transform: scale(.7); }
+  }
+  @keyframes box-resize {
+    0% { transform: scale(.8); }
+    50% { transform: scale(.6); }
+    100% { transform: scale(.7); }
+  }
+  
+  
+  @-webkit-keyframes box-resize2 {
+    0% { transform: scale(.4, 1); -webkit-transform: scale(.4, 1); }
+    50% { transform: scale(1, .4); -webkit-transform: scale(1, .4); }
+    100% { transform: scale(1); -webkit-transform: scale(1); }
+  }
+
+  @keyframes box-resize2 {
+    0% { transform: scale(.4, 1); }
+    50% { transform: scale(1, .4); }
+    100% { transform: scale(1); }
+  }
+  
+  @-webkit-keyframes box-resize3 {
+    0% { transform: scale(.7, .9); -webkit-transform: scale(.7, .9); }
+    50% { transform: scale(.2, .7); -webkit-transform: scale(.2, .7); }
+    100% { transform: scale(.9, .88); -webkit-transform: scale(.9, .88); }
+  }
+  
+  @keyframes box-resize3 {
+    0% { transform: scale(.7, .9); }
+    50% { transform: scale(.2, .7); }
+    100% { transform: scale(.9, .88); }
+  }
+  
+  
+  @-webkit-keyframes box-resize4 {
+    0% { transform: scale(.4, .48); -webkit-transform: scale(.4, .48); }
+    50% { transform: scale(.3); -webkit-transform: scale(.3); }
+    100% { transform: scale(.35, .85); -webkit-transform: scale(.35, .85); }
+  }
+
+  @keyframes box-resize4 {
+    0% { transform: scale(.4, .48); }
+    50% { transform: scale(.3); }
+    100% { transform: scale(.35, .85); }
+  }
+  
+  
+  @-webkit-keyframes box-resize5 {
+    0% { transform: scale(.5, .2); -webkit-transform: scale(.5, .2); }
+    50% { transform: scale(.22, .38); -webkit-transform: scale(.22, .38); }
+    100% { transform: scale(.5); -webkit-transform: scale(.5); }
+  }
+
+  @keyframes box-resize5 {
+    0% { transform: scale(.5, .2); }
+    50% { transform: scale(.22, .38); }
+    100% { transform: scale(.5); }
+  }
+  
+  
+  @-webkit-keyframes box-resize6 {
+    0% { transform: scale(.45, .4); -webkit-transform: scale(.45, .4); }
+    50% { transform: scale(.4, .48); -webkit-transform: scale(.4, .48); }
+    100% { transform: scale(.8, .95); -webkit-transform: scale(.8, .95); }
+  }
+
+  @keyframes box-resize6 {
+    0% { transform: scale(.45, .4); }
+    50% { transform: scale(.4, .48); }
+    100% { transform: scale(.8, .95); }
+  }
+  
+  
+  @-webkit-keyframes box-resize7 {
+    0% { transform: scale(.77, .57); -webkit-transform: scale(.77, .57); }
+    50% { transform: scale(.87, .56); -webkit-transform: scale(.87, .56); }
+    100% { transform: scale(.72, .55); -webkit-transform: scale(.72, .55); }
+  }
+
+  @keyframes box-resize7 {
+    0% { transform: scale(.77, .57); }
+    50% { transform: scale(.87, .56); }
+    100% { transform: scale(.72, .55); }
+  }
+  
+  
+  @-webkit-keyframes box-resize8 {
+    0% { transform: scale(.9, .52); -webkit-transform: scale(.9, .52); }
+    50% { transform: scale(.7, .9); -webkit-transform: scale(.7, .9); }
+    100% { transform: scale(.33, .44); -webkit-transform: scale(.33, .44); }
+  }
+
+  @keyframes box-resize8 {
+    0% { transform: scale(.9, .52); }
+    50% { transform: scale(.7, .9); }
+    100% { transform: scale(.33, .44); }
+  }
+  
+  
+  @-webkit-keyframes box-resize9 {
+    0% { transform: scale(.66, .33); -webkit-transform: scale(.66, .33); }
+    50% { transform: scale(.4, .2); -webkit-transform: scale(.4, .2); }
+    100% { transform: scale(.75, .67); -webkit-transform: scale(.75, .67); }
+  }
+
+  @keyframes box-resize9 {
+    0% { transform: scale(.66, .33); }
+    50% { transform: scale(.4, .2); }
+    100% { transform: scale(.75, .67); }
+  }
+  
+  
+  @-webkit-keyframes box-resize10 {
+    0% { transform: scale(.8, .4); -webkit-transform: scale(.8, .4); }
+    50% { transform: scale(.93, .66); -webkit-transform: scale(.93, .66); }
+    100% { transform: scale(.45, .77); -webkit-transform: scale(.45, .77); }
+  }
+
+  @keyframes box-resize10 {
+    0% { transform: scale(.8, .4); }
+    50% { transform: scale(.93, .66); }
+    100% { transform: scale(.45, .77); }
+  }
+  
+  /*End Animations*/
+  
+  
+
+
+/* @media all and (min-width:40em){
+    .introduction{
+        position: absolute;
+        top: 40%;
+        right: 30%;
+        left:30%;
+        text-align: center;
+        color: #fff;
+        font-family: 'Times New Roman',Georgia, Times, serif;
+    }
+    h1{
+        font-size: 4em;
+        letter-spacing: 0.02em;
+    }
+    h2{
+        font-size: 2em;
+        margin:0.1em auto;
+    }
+    
+    .introduction a:hover, intro a:focus{
+        color:rgba(240, 16, 27,0.5);
+    }
+} */
+@media all and (min-width:40em) and (min-height:30em){
+    .introduction{
+        position: absolute;
+        top: 25%;
+        right: 25%;
+        left:25%;
+        bottom: 25%;
+        text-align: center;
+        color: #fff;
+        font-family: 'Times New Roman',Georgia, Times, serif;
+    }
+    h1{
+        font-size: 4em;
+        letter-spacing: 0.02em;
+    }
+    h2{
+        font-size: 2em;
+        margin:0.1em auto;
+    }
+    
+    .introduction a:hover, intro a:focus{
+        color:rgba(240, 16, 27,0.5);
+    }
+}
+
+@media all and (min-width:60em) and (min-height:30em){
+    .introduction{
+        position: absolute;
+        top: 35%;
+        right: 25%;
+        left:25%;
+        bottom: 25%;
+        text-align: center;
+        color: #fff;
+        font-family: 'Times New Roman',Georgia, Times, serif;
+    }
+    h1{
+        font-size: 4em;
+        letter-spacing: 0.02em;
+    }
+    h2{
+        font-size: 2em;
+        margin:0.1em auto;
+    }
+    
+    .introduction a:hover, intro a:focus{
+        color:rgba(240, 16, 27,0.5);
+    }
+}
+@media all and(max-width:40em) {
+    .introduction{
+        position: absolute;
+        top: 30%;
+        right: 30%;
+        text-align: center;
+        color: #000;
+        font-family: 'Times New Roman',Georgia, Times, serif;
+    }
+    h1{
+        font-size: 3em;
+        letter-spacing: 0.02em;
+        margin:0 auto;
+    }
+    h2{
+        font-size: 1em;
+        margin:0 auto;
+    }
+    
+    .introduction a:hover, intro a:focus{
+        color:rgba(240, 16, 27,0.5);
+    }
+}
